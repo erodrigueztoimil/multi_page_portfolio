@@ -111,8 +111,8 @@ section {}
 /* work section starts here */
 .work {
   text-align: center;
-  height: 85vh;
-  /* padding-top: 2%; */
+  /* height: 85vh; */
+  padding-top: 2%;
 }
 
 .work h1 {
@@ -124,7 +124,23 @@ section {}
 
 .work .container {}
 
-.work .project {}
+.work .row {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.work .project {
+  width: 32%;
+  margin: 30px;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30);
+}
+
+.work .project img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 /* work section ends here */
 
 
